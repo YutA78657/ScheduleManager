@@ -1,1 +1,20 @@
 /build/
+# コンパイル生成物
+target/
+bin/
+
+# Eclipse / Pleiades の設定
+.settings/
+*.classpath
+*.project
+
+# OS が生成するゴミファイル
+.DS_Store
+Thumbs.db
+
+# ログやテンポラリ
+*.log
+*.tmp
+
+# ビルド用 lib や外部 jar は Git 管理しない
+WEB-INF/lib/*.jar
